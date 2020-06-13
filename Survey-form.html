@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="survey-form.css">
+</head>
+
+<body>
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+		<div class="survey">
+			<h1 id="title">Sopzy<span>Laundromat</span></h1>
+			<h3 id="description">Thank you subscribing to our dry cleaning service . Tell us more about yourself</h3>
+			<form id="survey-form">
+				<div class="form-inner">
+					<div class="space">
+						<label for="name" id="name-label">Name</label></br>
+						<input type="text" placeholder="enter your name" id="name" required>
+					</div>
+
+					<div class="space">
+						<label for="number-label" id="name-label">Age</label></br>
+						<input type="number" placeholder="Age" id="number" min="1" max="100" required>
+					</div>
+
+					<div class="space">
+						<label id="dropdown-label">Sevice type</label></br>
+						<select id="dropdown">
+							<option value="Alterations">Clothing Alterations</option>
+							<option value="Repairs">Repair and Maintenance</option>
+						</select></br>
+					</div>
+					<div class="space">
+					<form-group>
+						<label id="select-label">Clothing type</label></br></label>
+					  </div>
+
+					  <label>
+					  	<div class="space-se">
+					  		<input type="checkbox" id="first-check" name="garment1"
+					  		value="Tops">Blouses and Shirts</br>
+					  	</div>
+					  </label>
+
+					  <label>
+					  	<div class="space-se">
+					  		<input type="checkbox" id="second-check" name="garment2"
+					  		value="Bottoms">Skirts and Trousers</br>
+					  	</div>
+					  </label>
+
+					  <label>
+					  	<div class="space-se">
+					  		<input type="checkbox" id="third-check" name="garment3"
+					  		value="Others">Other Clothing Accessories</br>
+					  	</div>
+					  </label>
+
+					</form-group>
+					<div class="space">
+						<label id="feed-label">Feed back</label></br>
+					</div>
+
+					<div class="space-text">
+						<textarea class="text-area" placeholder="any-comment"></textarea>
+					 </br>
+					</div>
+					 
+				</div>
+				<input type="submit" id="submit">
+			</form>
+		</div>	
+
+</body>
+
+</html>
